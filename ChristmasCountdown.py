@@ -1,6 +1,3 @@
-# tk.overrideredirect(1) causes full screen behaviour
-# If run from the command line you can exit with Ctrl-c or Alt-F4 to close window
-
 import time
 import random
 from datetime import datetime
@@ -39,7 +36,7 @@ def update():
     except:
         pass
     
-    days = str(24 - int(datetime.now().strftime('%d')))
+    days = str(54 - int(datetime.now().strftime('%d')))
     hours = str(23 - int(datetime.now().strftime('%H')))
     mins = str(59 - int(datetime.now().strftime('%M')))
     secs = str(59 - int(datetime.now().strftime('%S')))
